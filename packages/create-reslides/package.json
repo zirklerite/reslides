@@ -1,0 +1,22 @@
+{
+	"name": "create-reslides",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "Scaffold a new reslides presentation project",
+	"bin": {
+		"create-reslides": "./bin/create-reslides.js"
+	},
+	"files": [
+		"bin",
+		"template"
+	],
+	"keywords": [
+		"reslides",
+		"svelte",
+		"presentation",
+		"slides",
+		"scaffold",
+		"create"
+	],
+	"license": "MIT"
+}

@@ -1,0 +1,19 @@
+[data-theme="minimal"] {
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-mono: 'SF Mono', 'Cascadia Code', monospace;
+	--font-heading: var(--font-sans);
+
+	--slide-bg: #fafafa;
+	--surface-color: #f0f0f0;
+	--surface-hover: #e5e5e5;
+	--text-color: #262626;
+	--text-muted: #a3a3a3;
+	--heading-color: #171717;
+	--border-color: #e5e5e5;
+	--accent-color: #737373;
+	--code-bg: #f0f0f0;
+	--code-color: #404040;
+
+	--slide-padding: 2.5rem;
+	--radius: 2px;
+}

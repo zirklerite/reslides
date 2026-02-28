@@ -1,0 +1,19 @@
+[data-theme="academic"] {
+	--font-sans: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+	--font-mono: 'Courier New', Courier, monospace;
+	--font-heading: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+
+	--slide-bg: #fdf8f0;
+	--surface-color: #f5ebe0;
+	--surface-hover: #eddbcc;
+	--text-color: #2c1810;
+	--text-muted: #6b4c3b;
+	--heading-color: #1a0f0a;
+	--border-color: #d4c4b0;
+	--accent-color: #8b4513;
+	--code-bg: #f5ebe0;
+	--code-color: #5c3317;
+
+	--slide-padding: 2.5rem;
+	--radius: 2px;
+}

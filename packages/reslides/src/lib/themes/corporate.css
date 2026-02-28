@@ -1,0 +1,19 @@
+[data-theme="corporate"] {
+	--font-sans: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-mono: 'Cascadia Code', Consolas, monospace;
+	--font-heading: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+	--slide-bg: #ffffff;
+	--surface-color: #f0f4f8;
+	--surface-hover: #dce4ed;
+	--text-color: #1e293b;
+	--text-muted: #64748b;
+	--heading-color: #0f172a;
+	--border-color: #cbd5e1;
+	--accent-color: #1d4ed8;
+	--code-bg: #f0f4f8;
+	--code-color: #1e40af;
+
+	--slide-padding: 2rem;
+	--radius: 6px;
+}

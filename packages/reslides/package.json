@@ -1,0 +1,49 @@
+{
+	"name": "reslides",
+	"version": "0.0.1",
+	"type": "module",
+	"bin": {
+		"reslides": "./bin/reslides.js"
+	},
+	"svelte": "./src/lib/index.ts",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./src/lib/index.ts",
+			"default": "./dist/index.js"
+		},
+		"./editor": "./src/lib/vite-plugin.ts",
+		"./themes/*.css": "./src/lib/themes/*.css"
+	},
+	"files": [
+		"dist",
+		"src/lib",
+		"bin"
+	],
+	"scripts": {
+		"package": "svelte-package -o dist",
+		"check": "svelte-check --tsconfig ./tsconfig.json"
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0",
+		"mermaid": "^11.0.0"
+	},
+	"devDependencies": {
+		"@sveltejs/package": "^2.5.7",
+		"@sveltejs/vite-plugin-svelte": "^6.0.0",
+		"@tsconfig/svelte": "^5.0.0",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"typescript": "~5.7.0"
+	},
+	"peerDependenciesMeta": {
+		"mermaid": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"magic-string": "^0.30.21",
+		"shiki": "^3.0.0"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "pnpm --filter reslides-demo dev",
+		"build": "pnpm --filter reslides run package && pnpm --filter reslides-demo build",
+		"check": "pnpm --filter reslides check && pnpm --filter reslides-demo check",
+		"package": "pnpm --filter reslides run package"
+	}
+}
